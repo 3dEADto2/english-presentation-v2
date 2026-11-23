@@ -1,0 +1,19 @@
+@import "tailwindcss";
+
+@theme {
+  --animate-popup-fadein: popup-fadein 0.5s ease-in-out both;
+  @keyframes popup-fadein {
+    0% {
+      scale: 0.9;
+      opacity: 0;
+    }
+    80% {
+      scale: 1.05;
+      opacity: 1;
+    }
+    100% {
+      scale: 1;
+      opacity: 1;
+    }
+  }
+}
